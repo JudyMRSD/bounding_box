@@ -4,9 +4,9 @@ import xml.etree.ElementTree as ET
 import pdb;
 
 #rootdir = '/home/akshaybhagat/Downloads/collection (1)/Annotations/users/JudyMRSD/50_items_5_classes_tighterpolygon/'
-rootdir = '/home/harp/Jin/py-faster-rcnn/data/APC/Annotations/original_xml'
-data_set_folder="APC_PASCAL"
-annotation_dir="/home/harp/Jin/py-faster-rcnn/data/APC/Annotations/"
+rootdir = '/Users/jinzhu/Google\ Drive/2017\ spring/APC/faster\ rcnn/data'
+data_set_folder="polygon_xml"
+annotation_dir="/Users/jinzhu/Google\ Drive/2017\ spring/APC/faster\ rcnn/data/bbox_xml"
 
 #n number of tabs indent
 def ntabs(n):
